@@ -13,7 +13,6 @@ public class AnimalFood {
     String type;
     String manufacturer;
 
-// *Trebuie sa pun expiration date
 
     LocalDateTime expirationDate;
 

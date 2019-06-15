@@ -8,4 +8,6 @@ public class Medic {
     String services;
     int skill;
     double price;
+
+
 }

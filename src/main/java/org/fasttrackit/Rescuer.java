@@ -1,11 +1,11 @@
 package org.fasttrackit;
 
-public class Rescuer {
+public class Rescuer extends Medic {
 
-    String name;
+
     int money;
-    int age;
     String job;
     String gender;
     String favoriteActivity;
+
 }

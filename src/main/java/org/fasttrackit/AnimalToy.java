@@ -1,9 +1,7 @@
 package org.fasttrackit;
 
-public class AnimalToy {
+public class AnimalToy extends Pet{
 
-    String name;
     double price;
-    int happinessLevel;
     int energyLevel;
 }

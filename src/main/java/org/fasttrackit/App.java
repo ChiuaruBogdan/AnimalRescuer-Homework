@@ -46,6 +46,7 @@ public class App
         animalFood.type = "crunchy";
         animalFood.manufacturer = "PetShop";
 
+
         Activity activity = new Activity();
         activity.name = "running";
         activity.type = "sport";
@@ -67,6 +68,11 @@ public class App
         game.medic = "Jones";
         game.rescuer = "Batman";
 
+//        apelarea metodei feeding din clasa Rescuer
+        rescuer.feeding(rescuer, pet, animalFood);
+
+//        apelarea metodei recreation
+        rescuer.recreation(rescuer, pet, activity);
     }
 
 }

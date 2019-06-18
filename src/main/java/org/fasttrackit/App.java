@@ -88,10 +88,10 @@ public class App
         animalToy.happinessLevel = 5;
 
 //        apelarea metodei feeding din clasa Rescuer
-        rescuer.feeding(rescuer, pet, animalFood);
+        rescuer.feeding(pet, animalFood);
 
 //        apelarea metodei recreation
-        rescuer.recreation(rescuer, pet, activity);
+        rescuer.recreation(pet, activity);
 
 
         boolean isList = AnimalToy.class.isAssignableFrom(Pet.class);

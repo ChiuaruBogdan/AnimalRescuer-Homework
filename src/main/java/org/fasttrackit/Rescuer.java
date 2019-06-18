@@ -13,15 +13,15 @@ public class Rescuer extends Medic {
 
     // mai jos sunt cele doua metode de "feeding" si "recreation"
 
-    public void feeding(Rescuer rescuer, Pet pet, AnimalFood animalFood) {
+    public void feeding(Pet pet, AnimalFood animalFood) {
 
-        System.out.println(rescuer.name + " just gave some " + animalFood.name + " to " + pet.name);
+        System.out.println("Batman" + " just gave some " + animalFood.name + " to " + pet.name);
 
     }
 
 
-    public void recreation (Rescuer rescuer, Pet pet, Activity activity) {
-        System.out.println(rescuer.name + " is playing with" + pet.name + "by doing " + activity.name);
+    public void recreation (Pet pet, Activity activity) {
+        System.out.println("Batman" + " is playing with" + pet.name + "by doing " + activity.name);
 
     }
 

@@ -12,6 +12,7 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
     {
         Pet pet = new Pet();
         pet.name = "Rex";
@@ -20,9 +21,9 @@ public class App
         pet.health = 1;
         pet.hungerLevel = 1;
         pet.favouriteFood = "bones";
-        pet.favouriteActivity ="running";
+        pet.favouriteActivity = "running";
         pet.type = "dog";
-        pet.breed ="Shepherd";
+        pet.breed = "Shepherd";
         pet.energy = 9;
         pet.gender = "male";
 
@@ -38,7 +39,7 @@ public class App
         AnimalFood animalFood = new AnimalFood();
         animalFood.name = "Bones";
         animalFood.amount = 5;
-        animalFood.expirationDate = LocalDateTime.of(2020,10,8,8,10,2);
+        animalFood.expirationDate = LocalDateTime.of(2020, 10, 8, 8, 10, 2);
         animalFood.price = 50;
         animalFood.energyLevel = 6;
         animalFood.flavor = "tasty";
@@ -91,8 +92,10 @@ public class App
 
 //        apelarea metodei recreation
         rescuer.recreation(rescuer, pet, activity);
-    }
 
+
+        boolean isList = AnimalToy.class.isAssignableFrom(Pet.class);
+    }
 }
 
 

@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+//inheritance or "is-a" relationship cu Medic
+
 public class Rescuer extends Medic {
 
 

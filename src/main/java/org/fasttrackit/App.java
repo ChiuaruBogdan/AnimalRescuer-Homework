@@ -38,7 +38,6 @@ public class App
         AnimalFood animalFood = new AnimalFood();
         animalFood.name = "Bones";
         animalFood.amount = 5;
-        animalFood.availability = true;
         animalFood.expirationDate = LocalDateTime.of(2020,10,8,8,10,2);
         animalFood.price = 50;
         animalFood.energyLevel = 6;
@@ -67,6 +66,25 @@ public class App
         game.dog = "Rex";
         game.medic = "Jones";
         game.rescuer = "Batman";
+
+        AnimalCrib animalCrib = new AnimalCrib();
+        animalCrib.name = "Bed";
+        animalCrib.price = 50;
+        animalCrib.energyLevel = 6;
+        animalCrib.happinessLevel = 9;
+
+        AnimalPark animalPark = new AnimalPark();
+        animalPark.name = "Central";
+        animalPark.energyLevel = 8;
+        animalPark.happinessLevel = 9;
+        animalPark.exhaustionLevel = 10;
+
+        AnimalToy animalToy = new AnimalToy();
+        animalToy.name = "Squeaky";
+        animalToy.price = 3.5;
+        animalToy.type = "Plastic";
+        animalToy.energyLevel = 2;
+        animalToy.happinessLevel = 5;
 
 //        apelarea metodei feeding din clasa Rescuer
         rescuer.feeding(rescuer, pet, animalFood);

@@ -93,8 +93,7 @@ public class App
 //        apelarea metodei recreation
         rescuer.recreation(pet, activity);
 
-
-        boolean isList = AnimalToy.class.isAssignableFrom(Pet.class);
+//        boolean isList = AnimalToy.class.isAssignableFrom(Pet.class);    incercare pentru confirmarea "is-a"
     }
 }
 

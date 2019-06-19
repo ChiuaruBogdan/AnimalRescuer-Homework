@@ -11,10 +11,11 @@ public class AnimalFood {
     String flavor;
     String type;
     String manufacturer;
+    LocalDateTime expirationDate;
 
 
 
-    LocalDateTime expirationDate = LocalDateTime.of(2020,10, 8,8,10,2);
+//    LocalDateTime expirationDate = LocalDateTime.of(2020,10, 8,8,10,2);
 
     }
 

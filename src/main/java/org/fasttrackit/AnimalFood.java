@@ -14,7 +14,6 @@ public class AnimalFood {
     LocalDateTime expirationDate;
 
 
-
 //    LocalDateTime expirationDate = LocalDateTime.of(2020,10, 8,8,10,2);
 
     }

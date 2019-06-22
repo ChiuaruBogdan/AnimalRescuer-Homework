@@ -1,7 +1,7 @@
 package org.fasttrackit;
 
 //inheritance or "is-a" relationship cu Medic
-
+// fa o clasa logica gen "Person" care sa extinda catre Medic
 public class Rescuer extends Medic {
 
 

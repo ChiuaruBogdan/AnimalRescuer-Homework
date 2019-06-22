@@ -4,9 +4,21 @@ package org.fasttrackit;
 
 public class Rescuer extends Person {
 
-
     Rescuer rescuer;
 
+
+
+
+    public Rescuer(String name, int money, String job, String gender){
+        this.name = name;
+        this.money = money;
+        this.job = job;
+        this.gender = gender;
+    }
+
+    public Rescuer() {
+
+    }
 
 
     // mai jos sunt cele doua metode de "feeding" si "recreation"

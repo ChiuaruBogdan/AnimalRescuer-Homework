@@ -7,4 +7,17 @@ public class AnimalCrib {
     int happinessLevel;
     int energyLevel;
 
+
+
+    public AnimalCrib(String name, double price){
+        this.name = name;
+        this.price = price;
+
+    }
+    public AnimalCrib(){
+
+    }
+
 }
+
+

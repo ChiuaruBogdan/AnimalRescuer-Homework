@@ -1,5 +1,6 @@
 package org.fasttrackit;
 
+import javax.naming.Name;
 import java.time.LocalDateTime;
 
 /**
@@ -12,9 +13,10 @@ public class App
         System.out.println("Hello World!");
 
 
-        {
+
+
             Pet pet = new Pet();
-            pet.name = "Rex";
+            pet.name = ("Rex");
             pet.age = 3;
             pet.happinessLevel = 1;
             pet.health = 1;
@@ -27,8 +29,8 @@ public class App
             pet.gender = "male";
 
             Rescuer rescuer = new Rescuer();
-            rescuer.money = 100;
             rescuer.name = "Batman";
+            rescuer.money = 100;
             rescuer.age = 32;
             rescuer.gender = "male";
             rescuer.job = "Crime-Fighter";
@@ -98,4 +100,4 @@ public class App
         }
 
 
-    }    }
+    }

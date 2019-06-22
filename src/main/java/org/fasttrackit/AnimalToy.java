@@ -8,4 +8,15 @@ public class AnimalToy {
     int energyLevel;
     String type;
     int happinessLevel;
+
+
+    public AnimalToy(String name, double price, String type){
+        this.name = name;
+        this.price = price;
+        this.type = type;
+    }
+    public AnimalToy(){
+
+    }
+
 }

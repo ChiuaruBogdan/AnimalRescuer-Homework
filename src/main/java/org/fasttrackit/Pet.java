@@ -1,6 +1,8 @@
 package org.fasttrackit;
 // inheritance or "is-a" relationship cu Dog
 
+import javax.naming.Name;
+
 public class Pet extends Dog{
 
     String name;
@@ -14,5 +16,20 @@ public class Pet extends Dog{
     int energy;
     String breed;
     String gender;
+
+
+
+    public Pet(String name, String type, int age, String breed, String gender) {
+        this.name = name;
+        this.type = type;
+        this.age = age;
+        this.breed = breed;
+        this.gender = gender;
+    }
+
+public Pet() {
+
+}
+
 
 }

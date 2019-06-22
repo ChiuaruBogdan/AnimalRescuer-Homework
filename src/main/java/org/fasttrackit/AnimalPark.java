@@ -6,4 +6,14 @@ public class AnimalPark {
     int happinessLevel;
     int energyLevel;
     int exhaustionLevel;
+
+
+    public AnimalPark(String name){
+
+        this.name = name;
+    }
+
+    public AnimalPark(){
+
+    }
 }

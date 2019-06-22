@@ -8,10 +8,10 @@ public class Medic extends Rescuer{
 
     public Medic(String name, int age, String specialization, String gender){
 
-        this.name = name;
-        this.age = age;
-        this.specialization = specialization;
-        this.gender = gender;
+        this.getName();
+        this.getAge();
+        this.getSpecialization();
+        this.getGender();
     }
 
     public Medic() {

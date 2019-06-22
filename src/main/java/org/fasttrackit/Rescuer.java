@@ -10,10 +10,10 @@ public class Rescuer extends Person {
 
 
     public Rescuer(String name, int money, String job, String gender){
-        this.name = name;
-        this.money = money;
-        this.job = job;
-        this.gender = gender;
+        this.getName();
+        this.getMoney();
+        this.getJob();
+        this.getGender();
     }
 
     public Rescuer() {
@@ -25,13 +25,13 @@ public class Rescuer extends Person {
 
     public void feeding(Pet pet, AnimalFood animalFood) {
 
-        System.out.println(rescuer.name + " just gave some " + animalFood.name + " to " + pet.name);
+        System.out.println(rescuer.getName() + " just gave some " + animalFood.getName() + " to " + pet.getName());
 
     }
 
 
     public void recreation (Pet pet, Activity activity) {
-        System.out.println( rescuer.name + " is playing with" + pet.name + "by doing " + activity.name);
+        System.out.println( rescuer.getName() + " is playing with" + pet.getName() + "by doing " + activity.getName());
 
     }
 

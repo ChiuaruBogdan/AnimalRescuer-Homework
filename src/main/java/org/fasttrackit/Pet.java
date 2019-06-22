@@ -1,6 +1,7 @@
 package org.fasttrackit;
+// inheritance or "is-a" relationship cu Dog
 
-public class Pet {
+public class Pet extends Dog{
 
     String name;
     int age;

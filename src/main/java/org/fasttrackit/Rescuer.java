@@ -1,14 +1,11 @@
 package org.fasttrackit;
 
-//inheritance or "is-a" relationship cu Medic
-// fa o clasa logica gen "Person" care sa extinda catre Medic
-public class Rescuer extends Medic {
+//inheritance or "is-a" relationship cu Person
+
+public class Rescuer extends Person {
 
 
-    int money;
-    String job;
-    String gender;
-    String favoriteActivity;
+
 
 
     // mai jos sunt cele doua metode de "feeding" si "recreation"

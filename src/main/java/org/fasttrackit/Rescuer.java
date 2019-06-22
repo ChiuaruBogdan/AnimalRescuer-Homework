@@ -5,6 +5,7 @@ package org.fasttrackit;
 public class Rescuer extends Person {
 
 
+    Rescuer rescuer;
 
 
 
@@ -12,13 +13,13 @@ public class Rescuer extends Person {
 
     public void feeding(Pet pet, AnimalFood animalFood) {
 
-        System.out.println(Rescuer.class + " just gave some " + animalFood.name + " to " + pet.name);
+        System.out.println(rescuer.name + " just gave some " + animalFood.name + " to " + pet.name);
 
     }
 
 
     public void recreation (Pet pet, Activity activity) {
-        System.out.println( Rescuer.class + " is playing with" + pet.name + "by doing " + activity.name);
+        System.out.println( rescuer.name + " is playing with" + pet.name + "by doing " + activity.name);
 
     }
 

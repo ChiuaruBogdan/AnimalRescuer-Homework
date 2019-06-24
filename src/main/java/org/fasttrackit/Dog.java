@@ -3,6 +3,6 @@ package org.fasttrackit;
 
 public class Dog {
 
-
+    private String color;
 
 }

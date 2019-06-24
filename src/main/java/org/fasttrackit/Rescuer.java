@@ -4,6 +4,7 @@ package org.fasttrackit;
 
 public class Rescuer extends Person {
 
+
     Rescuer rescuer;
 
 

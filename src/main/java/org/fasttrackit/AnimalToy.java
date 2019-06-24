@@ -5,9 +5,7 @@ public class AnimalToy {
 
     private String name;
     private double price;
-    private int energyLevel;
     private String type;
-    private int happinessLevel;
 
 
     public String getName() {
@@ -26,13 +24,7 @@ public class AnimalToy {
         this.price = price;
     }
 
-    public int getEnergyLevel() {
-        return energyLevel;
-    }
 
-    public void setEnergyLevel(int energyLevel) {
-        this.energyLevel = energyLevel;
-    }
 
     public String getType() {
         return type;
@@ -42,13 +34,6 @@ public class AnimalToy {
         this.type = type;
     }
 
-    public int getHappinessLevel() {
-        return happinessLevel;
-    }
-
-    public void setHappinessLevel(int happinessLevel) {
-        this.happinessLevel = happinessLevel;
-    }
 
     public AnimalToy(String name, double price, String type){
         this.name = name;

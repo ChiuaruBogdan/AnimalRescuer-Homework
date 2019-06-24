@@ -74,21 +74,15 @@ public class App
             AnimalCrib animalCrib = new AnimalCrib();
             animalCrib.setName("Bed");
             animalCrib.setPrice(50);
-            animalCrib.setEnergyLevel(6);
-            animalCrib.setHappinessLevel(10);
 
             AnimalPark animalPark = new AnimalPark();
             animalPark.setName("Central");
-            animalPark.setEnergyLevel(8);
-            animalPark.setHappinessLevel(9);
-            animalPark.setExhaustionLevel(10);
+
 
             AnimalToy animalToy = new AnimalToy();
             animalToy.setName("Squeaky");
             animalToy.setPrice(3.5);
             animalToy.setType("Plastic");
-            animalToy.setEnergyLevel(2);
-            animalToy.setHappinessLevel(5);
 
 //        apelarea metodei feeding din clasa Rescuer
             rescuer.feeding(pet, animalFood);

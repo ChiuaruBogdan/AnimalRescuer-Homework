@@ -65,7 +65,7 @@ public class App
 
 
             Game game = new Game();
-            game.dog = new Dog();
+            game.dog = new Dog("red");
             game.medic = new Medic();
             game.rescuer = new Rescuer();
 

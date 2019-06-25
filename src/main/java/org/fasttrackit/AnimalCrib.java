@@ -5,6 +5,9 @@ public class AnimalCrib {
     private String name;
     private double price;
 
+    public AnimalCrib(){
+
+    }
 
     public String getName() {
         return name;
@@ -28,9 +31,7 @@ public class AnimalCrib {
         this.price = price;
 
     }
-    public AnimalCrib(){
 
-    }
 
 }
 

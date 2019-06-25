@@ -32,7 +32,7 @@ public class Rescuer extends Person {
 
 
     public void recreation (Pet pet, Activity activity) {
-        System.out.println( rescuer.getName() + " is playing with" + pet.getName() + "by doing " + activity.getName());
+        System.out.println(rescuer.getName() + " is playing with" + pet.getName() + "by doing " + activity.getName());
 
     }
 

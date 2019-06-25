@@ -13,6 +13,10 @@ public class AnimalFood {
     private String manufacturer;
     private LocalDateTime expirationDate;
 
+    public AnimalFood() {
+
+    }
+
     public String getName() {
         return name;
     }
@@ -84,9 +88,7 @@ public class AnimalFood {
     this.type = type;
 }
 
-public AnimalFood() {
 
-}
 
 
 //    LocalDateTime expirationDate = LocalDateTime.of(2020,10, 8,8,10,2);

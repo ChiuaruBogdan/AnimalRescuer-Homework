@@ -7,6 +7,10 @@ public class Activity {
     private int duration;
     private int exhaustionLevel;
 
+    public Activity() {
+
+    }
+
     public String getName() {
         return name;
     }
@@ -52,9 +56,7 @@ public class Activity {
         this.type = type;
     }
 
-    public Activity() {
 
-    }
 
 
 }

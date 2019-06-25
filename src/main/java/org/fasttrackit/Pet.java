@@ -106,7 +106,10 @@ public class Pet extends Dog{
         this.gender = gender;
     }
 
+
+
     public Pet(String name, String type, int age, String breed, String gender) {
+        this();
         this.name = name;
         this.type = type;
         this.age = age;

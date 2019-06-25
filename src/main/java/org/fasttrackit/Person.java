@@ -10,10 +10,8 @@ public class Person {
     private String job;
     private String gender;
     private String favoriteActivity;
-    private String specialization;
     private int age;
     private String services;
-    private int skill;
     private double price;
 
     public String getName() {
@@ -56,13 +54,6 @@ public class Person {
         this.favoriteActivity = favoriteActivity;
     }
 
-    public String getSpecialization() {
-        return specialization;
-    }
-
-    public void setSpecialization(String specialization) {
-        this.specialization = specialization;
-    }
 
     public int getAge() {
         return age;
@@ -80,13 +71,6 @@ public class Person {
         this.services = services;
     }
 
-    public int getSkill() {
-        return skill;
-    }
-
-    public void setSkill(int skill) {
-        this.skill = skill;
-    }
 
     public double getPrice() {
         return price;

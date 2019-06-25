@@ -5,15 +5,12 @@ package org.fasttrackit;
 public class Rescuer extends Person {
 
     private String nickname;
-
     Rescuer rescuer;
 
-    public String getNickname() {
-        return nickname;
-    }
 
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
+    public Rescuer(String name, int money, String job, Rescuer rescuer) {
+        super(name, money, job);
+        this.rescuer = rescuer;
     }
 
     public Rescuer(String name, int money, String job, String gender){
@@ -21,6 +18,10 @@ public class Rescuer extends Person {
         this.getMoney();
         this.getJob();
         this.getGender();
+    }
+
+    public Rescuer(String nickname) {
+        this.nickname = nickname;
     }
 
     public Rescuer() {

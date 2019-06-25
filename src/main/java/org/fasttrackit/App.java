@@ -28,6 +28,10 @@ public class App
             pet.setEnergy(9);
             pet.setGender("male");
 
+
+            Dog dog = new Dog();
+            dog.setColor("Red");
+
             Rescuer rescuer = new Rescuer();
             rescuer.setName("Batman");
             rescuer.setMoney(100);
@@ -35,6 +39,7 @@ public class App
             rescuer.setGender("male");
             rescuer.setJob("Crime-Fighter");
             rescuer.setFavoriteActivity("running");
+            rescuer.setName("Bruce");
 
 
             AnimalFood animalFood = new AnimalFood();
@@ -65,7 +70,7 @@ public class App
 
 
             Game game = new Game();
-            game.dog = new Dog("red");
+            game.dog = new Dog();
             game.medic = new Medic();
             game.rescuer = new Rescuer();
 

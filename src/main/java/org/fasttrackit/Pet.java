@@ -121,5 +121,9 @@ public Pet() {
 
 }
 
+public void showHappinessLevel(Pet happinessLevel){
+    System.out.println("The happinness level is " + getHappinessLevel() + " for get " + getName());
+}
+
 
 }

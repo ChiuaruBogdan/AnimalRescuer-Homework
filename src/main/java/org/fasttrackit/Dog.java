@@ -20,4 +20,8 @@ public class Dog {
     public Dog() {
 
     }
+
+//    public void showHappinessLevel(Dog happinessLevel){
+//        System.out.println(getName() + " is wagging his tail because his happiness level is " + getHappinnessLevel);
+//    }
 }

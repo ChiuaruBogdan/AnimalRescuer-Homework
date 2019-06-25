@@ -4,11 +4,17 @@ package org.fasttrackit;
 
 public class Rescuer extends Person {
 
+    private String nickname;
 
     Rescuer rescuer;
 
+    public String getNickname() {
+        return nickname;
+    }
 
-
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
 
     public Rescuer(String name, int money, String job, String gender){
         this.getName();

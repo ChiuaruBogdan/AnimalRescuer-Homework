@@ -33,13 +33,13 @@ public class Rescuer extends Person {
 
     public void feeding(Pet pet, AnimalFood animalFood) {
 
-        System.out.println(rescuer.getName() + " just gave some " + animalFood.getName() + " to " + pet.getName());
+        System.out.println(getName() + " just gave some " + animalFood.getName() + " to " + pet.getName());
 
     }
 
 
     public void recreation (Pet pet, Activity activity) {
-        System.out.println(rescuer.getName() + " is playing with" + pet.getName() + "by doing " + activity.getName());
+        System.out.println(getName() + " is playing with " + pet.getName() + "by doing " + activity.getName());
 
     }
 

@@ -31,6 +31,8 @@ public class App
 
             Dog dog = new Dog();
             dog.setColor("Red");
+            dog.setName("Goku");
+            dog.setHappinessLevel(5);
 
             Rescuer rescuer = new Rescuer();
             rescuer.setName("Batman");
@@ -95,7 +97,10 @@ public class App
 //        apelarea metodei recreation
             rescuer.recreation(pet, activity);
 
-//        boolean isList = AnimalToy.class.isAssignableFrom(Pet.class);    incercare pentru confirmarea "is-a"
+
+//            apelarea metodei happinessLevel pentru Dog
+
+           dog.showHappinessLevel(dog);
         }
 
 

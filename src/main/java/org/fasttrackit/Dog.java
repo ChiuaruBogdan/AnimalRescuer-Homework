@@ -3,7 +3,10 @@ package org.fasttrackit;
 
 public class Dog {
 
+
+    private String name;
     private String color;
+    private int happinessLevel;
 
     public Dog(String color) {
         this.color = color;
@@ -17,11 +20,38 @@ public class Dog {
         this.color = color;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Dog(int happinessLevel) {
+        this.happinessLevel = happinessLevel;
+    }
+
+    public int getHappinessLevel() {
+        return happinessLevel;
+    }
+
+    public void setHappinessLevel(int happinessLevel) {
+        this.happinessLevel = happinessLevel;
+    }
+
     public Dog() {
 
     }
 
-//    public void showHappinessLevel(Dog happinessLevel){
-//        System.out.println(getName() + " is wagging his tail because his happiness level is " + getHappinnessLevel);
-//    }
+
+
+    public void showHappinessLevel(Dog happinessLevel){
+        System.out.println(getName() + " is wagging his tail because his happiness level is " + getHappinessLevel());
+    }
+
+
 }
+
+
+//getName() + " is playing with" + pet.getName() + "by doing " + activity.getName());  <<<---

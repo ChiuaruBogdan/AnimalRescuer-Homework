@@ -1,12 +1,29 @@
 package org.fasttrackit;
 // inheritance or "is-a" relationship cu Pet
 
-public class Dog {
+public class Dog extends Pet{
 
 
     private String name;
     private String color;
     private int happinessLevel;
+
+
+//    public void showHappinessLevel(Dog happinessLevel){
+//        System.out.println(getName() + " is wagging his tail because his happiness level is " + getHappinessLevel());
+//    }
+
+    @Override
+    public void showHappinessLevel(Pet happinessLevel) {
+        super.showHappinessLevel(happinessLevel);
+    }
+
+
+//   @Override
+//   public void showHappinessLevel(Pet happinessLevel){
+//       System.out.println(getName() +"'s happiness level is" + getHappinessLevel());
+//   }
+
 
     public Dog(String color) {
         this.color = color;
@@ -53,9 +70,6 @@ public class Dog {
 
 
 
-    public void showHappinessLevel(Dog happinessLevel){
-        System.out.println(getName() + " is wagging his tail because his happiness level is " + getHappinessLevel());
-    }
 
 
 }

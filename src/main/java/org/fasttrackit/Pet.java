@@ -3,7 +3,7 @@ package org.fasttrackit;
 
 import javax.naming.Name;
 
-public class Pet extends Dog{
+public class Pet {
 
     private String name;
     private int age;
@@ -16,6 +16,12 @@ public class Pet extends Dog{
     private int energy;
     private String breed;
     private String gender;
+
+
+
+    public void showHappinessLevel(Pet happinessLevel){
+        System.out.println("The happinness level is " + happinessLevel.getHappinessLevel() + " for " + getName());
+    }
 
 
     public Pet(String name, String type, int age, String breed, String gender) {
@@ -124,9 +130,6 @@ public class Pet extends Dog{
 
 
 
-public void showHappinessLevel(Pet happinessLevel){
-    System.out.println("The happinness level is " + getHappinessLevel() + " for get " + getName());
-}
 
 
 }

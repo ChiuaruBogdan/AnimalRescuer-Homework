@@ -11,50 +11,54 @@ public class Activity {
 
     }
 
-    public String getName() {
-        return name;
+    public Activity (String name, String type) {
+        this.name = name;
+        this.type = type;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getType() {
-        return type;
+    public String getName() {
+        return name;
     }
 
     public void setType(String type) {
         this.type = type;
     }
 
+    public String getType() {
+        return type;
+    }
+
+
+    public void setHappinessLevel(int happinessLevel) {
+        this.happinessLevel = happinessLevel;
+    }
     public int getHappinessLevel() {
         return happinessLevel;
     }
 
-    public void setHappinessLevel(int happinessLevel) {
-        this.happinessLevel = happinessLevel;
+
+    public void setDuration(int duration) {
+        this.duration = duration;
     }
 
     public int getDuration() {
         return duration;
     }
 
-    public void setDuration(int duration) {
-        this.duration = duration;
+    public void setExhaustionLevel(int exhaustionLevel) {
+        this.exhaustionLevel = exhaustionLevel;
     }
 
     public int getExhaustionLevel() {
         return exhaustionLevel;
     }
 
-    public void setExhaustionLevel(int exhaustionLevel) {
-        this.exhaustionLevel = exhaustionLevel;
-    }
 
-    public Activity (String name, String type) {
-        this.name = name;
-        this.type = type;
-    }
+
 
 
 

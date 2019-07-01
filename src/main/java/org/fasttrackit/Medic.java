@@ -20,24 +20,24 @@ public class Medic extends Person{
         this.getSpecialization();
         this.getGender();
     }
+    public Medic() {
 
-    public String getSpecialization() {
-        return specialization;
     }
 
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }
-
-    public int getSkill() {
-        return skill;
+    public String getSpecialization() {
+        return specialization;
     }
 
     public void setSkill(int skill) {
         this.skill = skill;
     }
-
-    public Medic() {
-
+    public int getSkill() {
+        return skill;
     }
+
+
+
 }

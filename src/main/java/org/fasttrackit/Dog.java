@@ -12,23 +12,34 @@ public class Dog {
         this.color = color;
     }
 
-    public String getColor() {
-        return color;
+    public Dog(int happinessLevel) {
+        this.happinessLevel = happinessLevel;
     }
+
+    public Dog() {
+
+    }
+
 
     public void setColor(String color) {
         this.color = color;
     }
-
-    public String getName() {
-        return name;
+    public String getColor() {
+        return color;
     }
+
+
 
     public void setName(String name) {
         this.name = name;
     }
+    public String getName() {
+        return name;
+    }
 
-    public Dog(int happinessLevel) {
+
+
+    public void setHappinessLevel(int happinessLevel) {
         this.happinessLevel = happinessLevel;
     }
 
@@ -36,13 +47,9 @@ public class Dog {
         return happinessLevel;
     }
 
-    public void setHappinessLevel(int happinessLevel) {
-        this.happinessLevel = happinessLevel;
-    }
 
-    public Dog() {
 
-    }
+
 
 
 

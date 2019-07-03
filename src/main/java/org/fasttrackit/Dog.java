@@ -14,8 +14,8 @@ public class Dog extends Pet{
 //    }
 
     @Override
-    public void showHappinessLevel(Pet happinessLevel) {
-        super.showHappinessLevel(happinessLevel);
+    public void showHappinessLevel() {
+        System.out.println(getName() + "'s happiness level is high");
     }
 
 

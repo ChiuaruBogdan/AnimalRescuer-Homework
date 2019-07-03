@@ -96,7 +96,7 @@ public class App {
 
 //            apelarea metodei happinessLevel pentru Dog
 
-        dog.showHappinessLevel(dog);
 
+        dog.showHappinessLevel();
     }
 }

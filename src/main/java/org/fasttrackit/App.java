@@ -26,8 +26,7 @@ public class App {
         pet.setGender("male");
 
 
-        Dog dog = new Dog();
-        dog.setColor("Red");
+        Pet dog = new Dog();
         dog.setName("Goku");
         dog.setHappinessLevel(5);
 
@@ -95,6 +94,7 @@ public class App {
 
 
 //            apelarea metodei happinessLevel pentru Dog
+
 
 
         dog.showHappinessLevel();

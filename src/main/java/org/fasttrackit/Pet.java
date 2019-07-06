@@ -6,8 +6,8 @@ public class Pet {
     private String name;
     private int age;
     private int health;
-    private int hungerLevel;
-    private int happinessLevel;
+    int hungerLevel;
+    int happinessLevel;
     private String favouriteFood;
     private String favouriteActivity;
     private String type;
@@ -29,7 +29,6 @@ public class Pet {
 
     }
 
-    // TREBUIE DOAR GETNAME + CONCATENEZ CE VREAU EU IN SOUT
     public void showHappinessLevel() {
         System.out.println(getName() + "'s happiness level is high");
     }

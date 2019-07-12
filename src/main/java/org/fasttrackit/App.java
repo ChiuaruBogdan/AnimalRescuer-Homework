@@ -84,6 +84,7 @@ public class App {
         game.dog = new Dog();
         game.medic = new Medic();
         game.rescuer = new Rescuer();
+        game.start();
 
 
         AnimalCrib animalCrib = new AnimalCrib();
@@ -108,8 +109,7 @@ public class App {
 //
 ////            apelarea metodei happinessLevel pentru Dog
 //
-//
-//
 //        dog.showHappinessLevel();
+
     }
 }

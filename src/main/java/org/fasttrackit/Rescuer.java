@@ -38,13 +38,14 @@ public class Rescuer extends Person {
             pet.happinessLevel ++;
             System.out.println(" Now the mood level is: " + pet.getHappinessLevel());
         }
-        else System.out.println("The animal wants his favorite food");
+        else {
+            System.out.println("The pet wants his favorite food");
 
 //        System.out.println(pet.getName() + "'s initial hunger level is: " + pet.getHungerLevel());
-        pet.hungerLevel --;
-        System.out.println(getName() + " just gave some " + animalFood.getName() + " to " + pet.getName() +
-                " and the hunger level is now: " + pet.getHungerLevel());
-
+            pet.hungerLevel--;
+            System.out.println(getName() + " just gave some " + animalFood.getName() + " to " + pet.getName() +
+                    " and the hunger level is now: " + pet.getHungerLevel());
+        }
 
     }
 

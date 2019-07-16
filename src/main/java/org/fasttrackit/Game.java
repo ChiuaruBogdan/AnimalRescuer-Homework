@@ -1,6 +1,7 @@
 package org.fasttrackit;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 
 public class Game {
@@ -12,21 +13,25 @@ public class Game {
     private Activity[] availableActivities = new Activity[2];
 
 
-    public void start() {
+    public void start() throws Exception {
         initFood();
         displayFood();
+        initActivities();
+        displayActivities();
+//        showAllFood();
     }
 
     private void initFood() {
         AnimalFood carnat = new AnimalFood();
         carnat.setName("Crenwurst");
-        availableFood.set(0, carnat);
+        availableFood.add(0, carnat);
 
 
         AnimalFood pizza = new AnimalFood();
         pizza.setName("Dominos");
-        availableFood.set(1, pizza);
+        availableFood.add(1, pizza);
     }
+
     private void displayFood() {
         System.out.println("Available food: ");
         for (int i = 0; i < availableFood.size(); i++) {
@@ -36,7 +41,7 @@ public class Game {
         }
     }
 
-  private void initActivities() {
+    private void initActivities() {
         Activity sport = new Activity();
         sport.setName("Alergare");
         availableActivities[0] = sport;
@@ -46,7 +51,35 @@ public class Game {
         availableActivities[1] = fun;
     }
 
+    private void displayActivities() {
+        System.out.println("Available activities: ");
+        for (int i = 0; i < availableActivities.length; i++) {
+            if (availableActivities != null) {
+                System.out.println((i + 1) + ". " + availableActivities[i].getName());
+            }
+        }
+    }
 
-}
+//    private void showAllFood() throws Exception {
+//
+//        System.out.println("Here is all the available food: ");
+//        for (int i = 0; i > availableFood.size(); i++) {
+//            if (availableFood != null) {
+//                System.out.println((i + 1) + " ." + availableFood.get(i).getName());
+//
+//            }
+//            catch (NullPointerException | ArrayIndexOutOfBoundsException e){
+//                throw new Exception("An error has occured.");
+//            }
+//            finally{
+//                System.out.println("Try again.");
+//            }
+//        }
+    }
+
+
+
+
+
 
 
